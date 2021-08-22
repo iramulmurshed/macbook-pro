@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>macbook-pro</title>
+</head>
+
+<body>
+    <!--header -->
+
+    <header>
+        <br>
+        <br>
+    </header>
+
+    <!--main  -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!--iMac image -->
+
+                    <img src="./mac.png " class="img-fluid">
+                </div>
+                <div class="col">
+
+                    <div>
+                        <!--product description -->
+                        <h2>
+                            Customize your Blue 24-inch iMac with Apple M1 chip.
+                        </h2>
+
+                        <h5>Apple M1 chip with 8-core with 4 performance cores and 4 efficiency cores, 7-core GPU and
+                            16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic
+                            Mouse Magic Keyboard- US English.</h5>
+                        <br>
+                        <!--memory -->
+                        <h4>Memory</h4>
+                        <button type="button" class="btn btn-outline-secondary" id="memory-8">8 GB unified
+                            memroy</button>
+                        <button type="button" class="btn btn-outline-secondary" id="memory-16">16 GB unified
+                            memroy</button>
+
+                        <br>
+                        <br>
+                        <!--storage -->
+                        <h4>Storage</h4>
+                        <button type="button" class="btn btn-outline-secondary" id="storage-256">256GB ssd
+                            storage</button>
+                        <button type="button" class="btn btn-outline-secondary" id="storage-512">512GB ssd
+                            storage</button>
+                        <button type="button" class="btn btn-outline-secondary" id="storage-1">1TB ssd storage</button>
+
+                        <br>
+                        <br>
+
+                        <!--delivery method -->
+                        <h4>Choose your delivery option</h4>
+                        <button type="button" class="btn btn-outline-secondary" id="free-delivary">Friday,Aug 25 FREE
+                            Prime
+                            Delivery</button>
+                        <button type="button" class="btn btn-outline-secondary" id="paid-delivary">Friday,Aug 21
+                            Delivery charge
+                            $20</button>
+                        <br>
+                        <br>
+
+                    </div>
+
+                    <div>
+                        <!--pricing  -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Best Price</h5>
+                                </div>
+                                <div class="col">
+                                    <h5>$<span id="best-price">1299</span> </h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Extra Memory Cost</h5>
+                                </div>
+                                <div class="col">
+                                    <h5>$<span id="extra-memory">0</span></h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Extra Storage Cost</h5>
+
+                                </div>
+                                <div class="col">
+                                    <h5>$<span id="extra-storage">0</span></h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Delivery Charge</h5>
+                                </div>
+                                <div class="col">
+                                    <h5>$<span id="delivery-charge">0</span></h5>
+                                    
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Total Price</h5>
+                                </div>
+                                <div class="col">
+                                 
+                                    <h5>$<span id="total-price">1299</span></h5>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--promocode -->
+                        <h5 class="mt-5">Add promo code</h5>
+                        <input type="text" class="mb-2 w-50  d-inline-block" id="input-promo-code"
+                            placeholder="Promo Code">
+                        <button type="button" class="btn btn-danger" id="code-apply-button">Apply</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <hr>
+
+        </div>
+
+
+    </main>
+
+
+    <!--footer -->
+
+    <footer>
+
+        <h2 class="text-center">Total price: $<span id='final-price'>1299</span></h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
